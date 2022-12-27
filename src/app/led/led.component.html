@@ -1,0 +1,11 @@
+<div 
+class="led"
+(click)="ledInput.click()"
+[ngStyle]="{'backgroundColor': color }"
+>
+    <input #ledInput
+    type="color"
+    style="display: none;"
+    (change)="changeColor($event)"
+    >
+</div>

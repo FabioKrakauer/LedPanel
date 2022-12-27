@@ -1,0 +1,12 @@
+.controller {
+    display: flex;
+    justify-content: center;
+}
+.screen--input {
+    margin: 0px 5px;
+}
+.panels {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}

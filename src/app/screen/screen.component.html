@@ -1,0 +1,16 @@
+<div class="controller">
+    <input 
+        type="number"
+        placeholder="Tamanho do painel"
+        class="screen--input"
+        (keyup)="updateSize($event)"
+        >
+    <button
+    (click)="generatePanels()"
+    >Criar paineis</button>
+</div>
+<div class="panels">
+    <app-panel
+        [leds]="panels"
+    ></app-panel>
+</div>
